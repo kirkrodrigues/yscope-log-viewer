@@ -36,4 +36,5 @@ jobs:
           config-path: "./package.json"
           directory: "./new-log-viewer"
           fail-check: true
+          request-changes: true
           targets: "./src/**/*.{js,jsx,ts,tsx}"
