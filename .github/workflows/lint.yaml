@@ -1,5 +1,8 @@
 name: "lint"
 
+permissions:
+  actions: "write"
+
 on:
   pull_request:
     types: ["opened", "reopened"]
