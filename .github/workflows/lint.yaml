@@ -3,7 +3,6 @@ name: "lint"
 permissions:
   actions: "write"
   contents: "read"
-  discussions: "write"
   pull-requests: "write"
 
 on:
